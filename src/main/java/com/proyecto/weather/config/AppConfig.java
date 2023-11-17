@@ -1,4 +1,4 @@
-package com.proyecto.weather;
+package com.proyecto.weather.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
