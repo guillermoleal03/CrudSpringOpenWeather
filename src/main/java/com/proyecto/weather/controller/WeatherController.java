@@ -21,10 +21,6 @@ public class WeatherController {
         return openWeatherService.get5DayForecast(city);
     }
 
-    /*@GetMapping("/pollution")
-    public ResponseEntity<Object> getAirPollutionByCity(@RequestParam String city) {
-        return openWeatherService.getAirPollution(city);
-    }*/
     @GetMapping("/pollution")
     public ResponseEntity<Object> getAirPollutionByCity(@RequestParam String city) {
         return openWeatherService.getAirPollution(city);
